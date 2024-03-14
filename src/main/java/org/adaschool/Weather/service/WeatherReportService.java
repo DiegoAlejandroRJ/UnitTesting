@@ -8,8 +8,8 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class WeatherReportService {
 
-    private static final String API_KEY = "your-api-key";
-    private static final String API_URL = "https://api.openweathermap.org/data/2.5/weather";
+    private static final String API_KEY = "eacf9ae20b291a81bf8d9c3bce0f823f";
+    public static final String API_URL = "https://api.openweathermap.org/data/2.5/weather";
 
     public WeatherReport getWeatherReport(double latitude, double longitude) {
         RestTemplate restTemplate = new RestTemplate();
